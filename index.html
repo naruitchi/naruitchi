@@ -3,72 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon site Web moderne</title>
-    <!-- Ajout des liens vers Bootstrap et AOS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css">
-    <style>
-        /* Styles personnalisés pour les éléments de la page */
-        body {
-            font-family: 'Roboto', sans-serif;
-            background-color: #f8f9fa;
-        }
-        .navbar {
-            background-color: #343a40;
-        }
-        .jumbotron {
-            background-image: url('https://source.unsplash.com/random');
-            background-size: cover;
-            color: #fff;
-        }
-        .card {
-            margin-bottom: 30px;
-        }
-    </style>
+    <title>Mon site Web</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-    <!-- En-tête et navigation -->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark">
-            <div class="container">
-                <a class="navbar-brand" href="#">Mon site Web moderne</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#accueil">Accueil</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#apropos">À propos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#projets">Projets</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+        <nav>
+            <ul>
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#">À propos</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
         </nav>
-        <section class="jumbotron text-center">
-            <div class="container">
-                <h1 class="display-4">Bienvenue sur mon site Web moderne</h1>
-                <p class="lead">Découvrez mes projets et apprenez-en plus sur moi.</p>
-            </div>
-        </section>
     </header>
 
-    <!-- Contenu principal -->
     <main>
-        <section id="accueil" class="container">
-            <h2 class="text-center mb-4">Accueil</h2>
-            <p>Bienvenue sur mon site Web moderne ! Je suis un développeur Web passionné par la création de sites Web et d'applications intéressants et fonctionnels. Sur ce site, vous trouverez des informations sur moi et mes projets récents.</p>
+        <section>
+            <h1>Bienvenue sur mon site Web</h1>
+            <p>Ceci est un exemple de site Web simple créé avec HTML et CSS.</p>
         </section>
-        <section id="apropos" class="container">
-            <h2 class="text-center mb-4" data-aos="fade-up">À propos</h2>
-            <div class="row">
-                <div class="col-md-6
+
+        <section>
+            <h2>À propos</h2>
+            <p>Je suis un développeur Web passionné par la création de sites Web attrayants et fonctionnels. J'aime apprendre de nouvelles technologies et partager mes connaissances avec les autres.</p>
+        </section>
+
+        <section>
+            <h2>Services</h2>
+            <ul>
+                <li>Conception de sites Web</li>
+                <li>Développement d'applications Web</li>
+                <li>Optimisation pour les moteurs de recherche (SEO)</li>
+                <li>Maintenance et support</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Contact</h2>
+            <p>Si vous souhaitez discuter de votre projet ou en savoir plus sur mes services, n'hésitez pas à me contacter.</p>
+            <p>Email : exemple@exemple.com</p>
+            <p>Téléphone : +33 1 23 45 67 89</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Mon site Web. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
